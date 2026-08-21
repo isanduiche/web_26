@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário 2</title>
+</head>
+<body>
+<h2 style="color: darkgreen; text-align: center"> Registre um produto 🌎</h2>
+<form>
+    <div style="text-align: center;">
+        <label style="color: darkolivegreen">
+            Nome do produto:
+            <input name="form_nome" type="text" placeholder="Digite o nome do produto" required>
+        </label>
+        <br>
+        <br>
+        <label style="color: darkolivegreen">
+            Descrição do produto:
+            <br>
+            <textarea name="form_descricao" rows="10" cols="50" placeholder="Descreva o produto" required></textarea>
+        </label>
+        <br>
+        <br>
+        <label style="color: darkolivegreen">
+        Categoria:
+        <select name="form_categoria" required>
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="livros">Livros</option>
+            <option value="brinquedos">Brinquedos</option>
+            <option value="esportes">Esportes</option>
+            <option value="calcados">Calçados</option>
+        </select>
+        </label>
+        <br>
+        <br>
+        <label style="color: darkolivegreen">
+        Páis de fabricação:
+        <select name="form_pais_fabricacao" required>
+            <option value="brasil">Brasil</option>
+            <option value="estados_unidos">Estados Unidos</option>
+            <option value="japao">Japão</option>
+            <option value="china">China</option>
+            <option value="alemanha">Alemanha</option>
+        </select>
+        <br>
+        <br>
+        </label>
+        <label style="color: darkolivegreen">
+        Preço do produto - R$:
+        <input name="form_preco" type="number" placeholder="Digite o preço" required>
+        </label>
+        <br>
+        <br>
+        <label style="color: darkolivegreen">
+        Data de fabricação:
+        <input name="form_data_fabricacao" type="date" required>
+        </label>
+        <br>
+        <br>
+        <button type="submit" style="color: darkolivegreen">Enviar</button>
+        <button type="reset" style="color: darkolivegreen">Redefinir</button>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+<h1 style="color: darkblue">Exemplos de formularios</h1>
+    <!-- O metodo de ser P O S T -->
+<form action="" method="get">
+    <!-- Exemplo 1 de um label e input -->
+    <label style="color: darkslateblue">
+    <!--    O name de começar com form_    -->
+        Nome:
+        <input name="form_nome" type="text" placeholder="Digite seu nome" required>
+    </label>
+
+    <br>
+    <br>
+
+    <!-- Exemplo 2 de um label e input -->
+    <label style="color: darkslateblue" for="input2">Sobrenome:</label>
+    <input id="input2" name="form_sobrenome" type="text" placeholder="EX: Van Pelt" required>
+
+    <br>
+    <br>
+
+    <label style="color: darkslateblue">
+        Idade:
+        <input name="form_idade" type="number" placeholder="Digite sua idade" required>
+    </label>
+
+    <br>
+    <br>
+
+    <label style="color: darkslateblue">
+        Data de nascimento:
+        <input name="form_data_nascimento" type="date" required>
+    </label>
+
+    <br>
+    <br>
+
+    <label style="color: darkblue">Qual ano atual do seu Ensino Médio?</label>
+    <br>
+    <!--  No input radio, os names devem ser iguais, com a alteração apenas do value  -->
+    <label style="color: darkslateblue">
+        <input name="form_em" value="1" type="radio" required>
+        1 EM
+    </label>
+    <br>
+    <label style="color: darkslateblue">
+        <input name="form_em" value="2" type="radio" required>
+        2 EM
+    </label>
+    <br>
+    <label style="color: darkslateblue">
+        <input name="form_em" value="3" type="radio" required>
+        3 EM
+    </label>
+    <br>
+    <br>
+
+    <label style="color: darkslateblue">Qual a sua carteira de motorista?</label>
+    <br>
+    <label style="color: darkslateblue">
+        <input name="form_carro" type="checkbox">
+        Carro
+    </label>
+    <br>
+    <label style="color: darkslateblue">
+        <input name="form_moto" type="checkbox">
+        Moto
+    </label>
+    <br>
+    <label style="color: darkslateblue">
+        <input name="form_outro" type="checkbox">
+        Outro
+    </label>
+
+    <br>
+    <br>
+
+    <label style="color: darkslateblue">
+        Comentário:
+        <br>
+        <textarea name="form_comentario" rows="10" cols="50" placeholder="Deixe seu comentário" required></textarea>
+    </label>
+
+    <br>
+    <br>
+    <label style="color: darkslateblue">
+        Cidade:
+        <select name="form_cidade" required>
+            <option value="guararapes">Guararapes</option>
+            <option value="aracatuba">Araçatuba</option>
+            <option value="birigui">Birigui</option>
+            <option value="valparaiso">Valparaíso</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label style="color: darkslateblue">
+        Senha:
+        <input name="form_senha" type="password" placeholder="Digite sua senha" required>
+    </label>
+    <br>
+    <br>
+
+<!--  Sempre vai ser submit para salvar  -->
+    <button type="submit" style="color: darkslateblue">Enviar</button>
+    <button type="reset" style="color: darkslateblue">Limpar</button>
+</form>
+
+</body>
+</html>

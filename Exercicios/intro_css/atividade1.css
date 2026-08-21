@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+h1{
+    color: darkred;
+    text-align: center;
+}
+p{
+    background-color: darkred;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+
